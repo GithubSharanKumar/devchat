@@ -1,0 +1,72 @@
+body{
+
+    margin:0;
+    font-family:Arial;
+    background:#f5f5f5;
+
+}
+
+.container{
+
+    width:500px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+
+}
+
+h1{
+
+    text-align:center;
+
+}
+
+#messages{
+
+    height:400px;
+    overflow-y:auto;
+    border:1px solid gray;
+    padding:10px;
+    margin-bottom:15px;
+
+}
+
+.message{
+
+    margin-bottom:10px;
+
+}
+
+.input-area{
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+
+input{
+
+    padding:10px;
+    font-size:16px;
+
+}
+
+button{
+
+    padding:10px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+
+}
+
+button:hover{
+
+    background:darkgreen;
+
+}
